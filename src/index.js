@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
 
-    <ReactQueryDevtools initialIsOpen />
+    <ReactQueryDevtools initialIsOpen={false} />
   </React.StrictMode>,
   document.getElementById("root")
 );

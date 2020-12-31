@@ -14,7 +14,7 @@ const People = () => {
   return (
     <div>
       <h2>People</h2>
-      {status === "loading" && <div>Loading data</div>}
+      {status === "loading" && <div>Loading data...</div>}
 
       {status === "error" && <div>Error fetching data</div>}
 
